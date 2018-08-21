@@ -1,0 +1,57 @@
+.banner {margin: auto;
+        background-color: #39ff14;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        width: 95%;
+
+    }
+
+body{background-color: darkgrey;}
+
+.headline{font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 45px;
+        text-align: center;
+        padding-top: 30px;
+
+    }
+
+ul {list-style: none;}
+
+.picture{display: block;
+    margin-left: auto;
+        margin-right: auto;
+        }
+ .burgs{
+     list-style: none;
+     text-align: center;
+     padding-top: 60px;
+ }
+
+ .burgLeft{
+     float: left;
+     width: 50%;
+     height: 500px;
+     text-align: center;
+     margin-left:auto;
+     margin-right:auto;
+     background-color: #ff03bc;
+
+   }
+ .burgList{list-style:none;}
+
+ .burgScarfed{
+    float: left;
+    width: 50%;
+    text-align: center;
+    margin-left:auto;
+    margin-right:auto;
+    background-color:#d9ff03;
+    height:500px;
+    color: darkgrey;
+  }
+
+.burgStat{display:block;
+    margin-left:auto;
+        margin-right:auto;
+        
+        }

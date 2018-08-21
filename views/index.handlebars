@@ -1,0 +1,34 @@
+<div class="burgStat">
+    
+    <div class="burgLeft">
+
+        <h2 class="burg">Burgers Left to Eat</h2>
+        {{#each burgers}} 
+          {{#unless this.devoured}}
+            <form action="/burgers/eat/{{id}}" method="POST">
+                <div class="burgList">
+                    <li>{{burger_name}}</li>
+                    <span>
+                        <button class="btn" type="submit">Devour IT!</button>
+                    </span>
+                </div>
+            </form>
+          {{/unless}} 
+        {{/each}}
+
+    </div>
+
+    <div class="burgScarfed">
+        
+        <h2 class="burg">Burgers Scarfed</h2>
+        {{#each burgers}} 
+          {{#if this.devoured}}
+            <div class="burgList">
+                <li>{{this.burger_name}}</li>
+            </div>
+          {{/if}} 
+        {{/each}}
+
+    </div>
+
+</div>
